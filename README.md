@@ -5,7 +5,7 @@ feautures: Patient Registration functionality
 The app contains a framework for organizing, storing, and managing data that comprises of files or tables that interact in various ways. Each file or table contains data about people. The project also has a database management system (DBMS) that enables users to add, update, manage, access, and analyze data. Since the Software Development Life Cycle (SDLC) follows the process of developing software applications, this concept was present during the planning and designing of this project. 
 
 ## Database
-* Contains seven tables: names, dob, gender, addresses, phoneNumbers, emailAddresses and visits.
+* Contains five tables: names, addresses, phoneNumbers, emailAddresses and visits.
 
 
 Small database project for hospital management which includes the patient records, patient diagnosis records, doctor records and bill records.
