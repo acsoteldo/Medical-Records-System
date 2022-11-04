@@ -1,23 +1,11 @@
 BEGIN TRANSACTION;
-CREATE TABLE IF NOT EXISTS "gender" (
-	"genderID"	INTEGER,
-	"patientID"	INTEGER,
-	"gender"	TEXT,
-	PRIMARY KEY("genderID" AUTOINCREMENT),
-	FOREIGN KEY("patientID") REFERENCES "names"("patientID") on delete cascade
-);
 CREATE TABLE IF NOT EXISTS "names" (
 	"patientID"	INTEGER,
 	"firstName"	TEXT,
 	"lastName"	TEXT,
-	PRIMARY KEY("patientID" AUTOINCREMENT)
-);
-CREATE TABLE IF NOT EXISTS "dob" (
-	"dobID"	INTEGER,
-	"patientID"	INTEGER,
 	"dob"	TEXT,
-	PRIMARY KEY("dobID" AUTOINCREMENT),
-	FOREIGN KEY("patientID") REFERENCES "names"("patientID") on delete cascade
+	"gender"	TEXT,
+	PRIMARY KEY("patientID" AUTOINCREMENT)
 );
 CREATE TABLE IF NOT EXISTS "addresses" (
 	"addressID"	INTEGER,
