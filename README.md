@@ -6,8 +6,10 @@ Small database project made in Java using DBMS as backend database which provide
 * Java
 * MySql
 
-https://github.com/acsoteldo/Medical-Records-System/blob/main/architecture-baseline.png
+![architecture-baseline] (https://github.com/acsoteldo/Medical-Records-System/blob/main/architecture-baseline.png)
+
 
 ## Database
 Contains five tables: names, addresses, phoneNumbers, emailAddresses and visits.
-https://github.com/acsoteldo/Medical-Records-System/blob/main/preliminary-database-tables.png
+
+![preliminary-database-tables] (https://github.com/acsoteldo/Medical-Records-System/blob/main/preliminary-database-tables.png)
