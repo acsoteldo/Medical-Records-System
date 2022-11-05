@@ -28,7 +28,7 @@ public class Patient_Database extends JFrame implements Printable, ActionListene
 	public JTextField phoneNumber;
 	public JTextField arrivalDate;
 	public JTextField dischargeDate;
-    public JTextField reasonVisit;
+	public JTextField reasonVisit;
 	public static final int WIDTH = 600;
 	public static final int HEIGHT = 1000;
 	
@@ -144,23 +144,23 @@ public class Patient_Database extends JFrame implements Printable, ActionListene
 		
 		
 		FirstName.add(fname);
-	    FirstName.add(f1);
-	    LastName.add(lname);
-	    LastName.add(l1);
+		FirstName.add(f1);
+		LastName.add(lname);
+		LastName.add(l1);
 		dobPanel.add(dobLabel);
 		dobPanel.add(dob);
 		genPanel.add(gen);
 		genPanel.add(gender);
-	    emailPanel.add(emailLabel);
-	    emailPanel.add(email);
-	    phonePanel.add(phoneLabel);
-	    phonePanel.add(phoneNumber);
-	    addrPanel.add(addr);
-	    addrPanel.add(address);
-	    addrPanel2.add(addr2);
+		emailPanel.add(emailLabel);
+		emailPanel.add(email);
+		phonePanel.add(phoneLabel);
+		phonePanel.add(phoneNumber);
+		addrPanel.add(addr);
+		addrPanel.add(address);
+		addrPanel2.add(addr2);
 		addrPanel2.add(address2);
 		cityPanel.add(cityP);
-	    cityPanel.add(city);
+		cityPanel.add(city);
 		zipcodePanel.add(zipcodeP);
 		zipcodePanel.add(zipcode);
 		statePanel.add(stateP);
@@ -173,15 +173,15 @@ public class Patient_Database extends JFrame implements Printable, ActionListene
 		reasonPanel.add(reasonVisit);
 
 		//continue adding the text fields
-
-	    textPanel.add(FirstName);
-	    textPanel.add(LastName);
+		
+		textPanel.add(FirstName);
+		textPanel.add(LastName);
 		textPanel.add(dobPanel);
-	    textPanel.add(genPanel);
-	    textPanel.add(phonePanel);
-	    textPanel.add(emailPanel);
-	    textPanel.add(addrPanel);
-	    textPanel.add(addrPanel2);
+		textPanel.add(genPanel);
+		textPanel.add(phonePanel);
+		textPanel.add(emailPanel);
+		textPanel.add(addrPanel);
+		textPanel.add(addrPanel2);
 		textPanel.add(cityPanel);
 		textPanel.add(statePanel);
 		textPanel.add(zipcodePanel);
@@ -190,15 +190,15 @@ public class Patient_Database extends JFrame implements Printable, ActionListene
 		textPanel.add(reasonPanel);
 
 
-	    mFrame = new JInternalFrame("Please input patient details below:", true, true, true, true);
-	    mFrame.setLayout(new BorderLayout());
-	
-	    JButton insertButton = new JButton("Insert");
-	    insertButton.addActionListener(this);
-	
-	    JButton deleteButton = new JButton("Delete");
-	    deleteButton.addActionListener(this);
+		mFrame = new JInternalFrame("Please input patient details below:", true, true, true, true);
+		mFrame.setLayout(new BorderLayout());
 
+		JButton insertButton = new JButton("Insert");
+		insertButton.addActionListener(this);
+
+		JButton deleteButton = new JButton("Delete");
+		deleteButton.addActionListener(this);
+		
 		JButton searchButton = new JButton("Search");
 		searchButton.addActionListener(this);
 		
@@ -209,15 +209,15 @@ public class Patient_Database extends JFrame implements Printable, ActionListene
 		PrintButton.addActionListener(this);
 		
 		JButton newButton = new JButton("New");
-	    newButton.addActionListener(this);
-
-	    
-	    buttonPanel.add(insertButton);
-	    buttonPanel.add(deleteButton);
+		newButton.addActionListener(this);
+		
+		
+		buttonPanel.add(insertButton);
+		buttonPanel.add(deleteButton);
 		buttonPanel.add(searchButton);
 		buttonPanel.add(updateButton);
 		buttonPanel.add(PrintButton);
-	    buttonPanel.add(newButton);
+		buttonPanel.add(newButton);
 		
 		
 		mFrame.setSize(500,800);
