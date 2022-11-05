@@ -4,7 +4,7 @@ Small database project made in Java using DBMS as backend database which provide
 
 Challenges: Ensuring security of records and data integrity.
 
-Interest in the development of an efficient system for storing healthcare records electronically and improvement of documentation practices in island nations, with a focus on the primary care physician setting.
+Interest in the development of an efficient system for storing healthcare records electronically and improvement of documentation practices in island nations or remote areas, with a focus on the primary care physician setting.
 
 ### Demo video
 [upload]
