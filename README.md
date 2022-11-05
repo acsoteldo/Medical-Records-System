@@ -10,7 +10,4 @@ https://github.com/acsoteldo/Medical-Records-System/blob/main/architecture-basel
 
 ## Database
 Contains five tables: names, addresses, phoneNumbers, emailAddresses and visits.
-
-Architecture-baseline.png
-preliminary-database-tables.png
-
+https://github.com/acsoteldo/Medical-Records-System/blob/main/preliminary-database-tables.png
