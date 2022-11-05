@@ -11,4 +11,4 @@ Small database project made in Java using DBMS as backend database which provide
 ## Database
 Contains five tables: names, addresses, phoneNumbers, emailAddresses and visits.
 
-![preliminary-database-tables] (https://github.com/acsoteldo/Medical-Records-System/blob/main/preliminary-database-tables.png)
+<img width="486" alt="preliminary-database-tables" src="https://user-images.githubusercontent.com/76544489/200093376-5f11fd87-139b-46cc-975a-2788efe46192.png">
