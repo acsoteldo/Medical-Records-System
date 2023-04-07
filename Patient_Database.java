@@ -474,11 +474,14 @@ public class Patient_Database extends JFrame implements Printable, ActionListene
 				while(rs.next()) {
 					pid = rs.getInt("patientID");
 					}
-				statement.executeUpdate("UPDATE names Set firstName = '"+firstname+"', lastName = '"+lastname+"', dob = '"+dobVar+"', gender = '"+genderVar+"' WHERE patientID = '"+pid+"'");
+				statement.executeUpdate("UPDATE names Set firstName = '"+firstname+"', lastName = '"+lastname+"', dob = '"+dobVar+"', 
+							gender = '"+genderVar+"' WHERE patientID = '"+pid+"'");
 				statement.executeUpdate("UPDATE emailAddresses Set emailAddresses = '"+emailVar+"' WHERE patientID = '"+pid+"'");
-				statement.executeUpdate("UPDATE addresses Set address1 = '"+add1+"', address2 = '"+add2+"', city = '"+cityVar+"', state = '"+stateVar+"', zipcode = '"+zipcodeVar+"' WHERE patientID = '"+pid+"'");
+				statement.executeUpdate("UPDATE addresses Set address1 = '"+add1+"', address2 = '"+add2+"', city = '"+cityVar+"', state = '"+stateVar+"', 
+							zipcode = '"+zipcodeVar+"' WHERE patientID = '"+pid+"'");
 				statement.executeUpdate("UPDATE phoneNumbers Set phoneNumber = '"+phoneNumberVar+"' WHERE patientID = '"+pid+"'");
-				statement.executeUpdate("UPDATE visits Set arrivalDate = '"+arrivalDateVar+"', dischargeDate = '"+dischargeDateVar+"', reasonVisit = '"+reasonVisitVar+"' WHERE patientID = '"+pid+"'");
+				statement.executeUpdate("UPDATE visits Set arrivalDate = '"+arrivalDateVar+"', dischargeDate = '"+dischargeDateVar+"', 
+							reasonVisit = '"+reasonVisitVar+"' WHERE patientID = '"+pid+"'");
 				
 				Object ins3 = "Success! Update was successful!";
 				JOptionPane.showMessageDialog(null, ins3);
